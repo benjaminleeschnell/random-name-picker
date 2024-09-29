@@ -31,6 +31,22 @@ body {
   margin-top: -10px;
 }
 
+#header nav ul {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#header nav ul li {
+  list-style-type: none;
+}
+
+#header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.85em;
+}
+
 .main {
   display: flex;
 }
