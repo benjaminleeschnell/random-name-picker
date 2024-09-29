@@ -31,6 +31,10 @@ body {
   margin-top: -10px;
 }
 
+#header nav {
+  margin-top: -30px;
+}
+
 #header nav ul {
   display: flex;
   gap: 15px;
