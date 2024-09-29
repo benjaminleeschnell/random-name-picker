@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.highlight {
+    background-color: yellow;
+    color:#184f2c;
+}
+.name {
+    margin: 5px;
+}
+
+body {
+  background-color: #184f2c;
+  color: #fff;
+  font-family: 'Open Sans';
+  position: relative;
+  min-height: 100vh;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header img {
+  width: 130px;
+}
+
+#header h1 {
+  font-size: 1.5em;
+  margin-top: -10px;
+}
+
+.main {
+  display: flex;
+}
+
+#box {
+  margin: 15px auto;
+  max-width: 350px;
+  padding: 15px 10px 30px 10px;
+  color: #fff;
+  border: none;
+  appearance: none;
+  box-shadow: 5px 5px 5px #144225, -5px -5px 5px #1c5a32;
+  border-radius: 5px;
+  background-color: #184f2c;
+  text-align: center;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    appearance: none;
+    box-shadow: 3px 3px 3px #144225, -3px -3px 3px #1c5a32;
+    border-radius: 5px;
+    background-color: #184f2c;
+    color: #fff;
+    font-size: 0.75em;
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px hsla(122, 52%, 13%, 1);
+  cursor: pointer;
+}
+
+textarea {
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 4px #144225, inset -2px -2px 4px #1c5a32;
+  appearance: none;
+  border: none;
+  background-color: #184f2c;
+  margin-top: 3px;
+  padding: 0 0 0 10px;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 15px;
+  width: 300px;
+}
+
+textarea:active,
+textarea:focus {
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 3px hsla(122, 52%, 13%, 1);
+}

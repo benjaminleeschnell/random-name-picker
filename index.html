@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Random Name Picker</title>
+    </head>
+    <body>
+        <div id="header">
+            <img src="./img/southern-logo-on-brand-green-background-horizontal.png">
+            <h1>Random Name Picker</h1>
+        </div>
+        <div id="box">
+            <textarea id="nameInput" rows="5" cols="30" placeholder="Enter names, one per line"></textarea>
+            <br><br>
+            <button id="chooseButton" onclick="startSelection()">Pick a Random Name</button>
+            <div id="nameList"></div>
+            <br>
+            <button id="removeSelectedBtn" style="display: none" onclick="removeSelected()">Remove Selected Name</button>
+            <button id="keepSelectedBtn" style="display: none" onclick="keepSelected()">Keep Selected Name</button>
+            <script src="./js/main.js"></script>
+        </div>
+    </body>
+    </html>
+    
